@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <head>
-
   <link href="/normalize.css" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,17 +32,36 @@
       padding: 20px;
       margin: 0 auto;
     }
+
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
         padding: 5px;
+      }
+      h2 {
+        font-weight: bolder;
+        font-size: 80px;
+        font-family: fantasy;
+        margin-left: 50px;
       }
       li {
         padding: 5px;
         display: block;
       }
     }
-        
+      div {
+        float: left;
+      }
+      img {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 100px;
+        margin-left: 50px;
+      }
+      article {
+        display: inline;
+        vertical-align: top;
+      }
   </style>
 </head>
 <body>
@@ -56,5 +74,14 @@
     </ul>
   </header>
   <h2>Places to shop<h2>
+    <div><img src="http://i4.manchestereveningnews.co.uk/incoming/article8938610.ece/ALTERNATES/s615b/JS57978411.jpg">
+      <article>This is one of Manchester's hidden gems.</article>
+    </div>
+    <div><img src="https://www.jumpnation.com/site-content/1/Feature%20Images/Airbag-2.jpg">
+      <article>This is one of Manchester's hidden gems.</article>
+    </div>
+    <div><img src="http://ilovemanchester.com/media/1947264/First-Street-Manchester-HOME-by-Wesley-Harding.jpeg">
+      <article>This is one of Manchester's hidden gems.</article>
+    </div>
   </body>
 </html>
