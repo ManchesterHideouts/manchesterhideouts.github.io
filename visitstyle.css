@@ -1,0 +1,96 @@
+h1{ font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0; }
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+  font-family: 'Londrina Solid', cursive;
+}
+a,a:hover{
+      color: #aaaaaa; 
+    text-decoration: none}
+p {
+  height:20px;
+  color: rgba(255,255,255,1);
+  background: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+small { opacity:0;}
+.show-description p{
+  height:150px;}
+.show-description small{
+  opacity:1;}
+.Breakout{
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/06/54/3d/a8/breakout-manchester.jpg");
+}
+.Jump{
+  background-image: url("https://www.jumpnation.com/site-content/1/Feature%20Images/Airbag-2.jpg");
+}
+.Home2{
+  background-image: url("http://ilovemanchester.com/media/1947264/First-Street-Manchester-HOME-by-Wesley-Harding.jpeg");
+}
+.price {
+  float: right;
+}
+
+ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+
+@media (max-width: 500px) { 
+    h1{ font-size: 50px;
+      margin-top: 20px;
+      line-height: 40px;}
+      }
+    h2{ font-size:20px;
+      margin: 20px 0 30px 0;}
+      }
+     div{ 
+    margin: 20px 12px 0 12px;
+    }
+    p{
+      font-size:20px;
+      line-height:24px;
+    }
+    small{font-size: 16px;}
+    }
+    

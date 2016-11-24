@@ -1,0 +1,100 @@
+
+h1{ font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0; }
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+  font-family: 'Londrina Solid', cursive;
+}
+a,a:hover{
+      color: #aaaaaa; 
+    text-decoration: none}
+p {
+  height:20px;
+  color: rgba(255,255,255,1);
+  background: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+small { opacity:0;}
+.show-description p{
+  height:150px;}
+.show-description small{
+  opacity:1;}
+.Trafford{
+  background-image: url(http://www.dhwbuilders.com/assets/bulkUpload/ban1.jpg);
+}
+.Arndale{
+  background-image: url("http://i2.liverpoolecho.co.uk/incoming/article8215161.ece/ALTERNATES/s615/JS52016896.jpg");
+}
+.King{
+  background-image: url("http://i1.manchestereveningnews.co.uk/incoming/article7293474.ece/ALTERNATES/s1200/1917.jpg");
+}
+.Afflecks {
+  background-image: url("http://i2.manchestereveningnews.co.uk/incoming/article7502126.ece/ALTERNATES/s615b/afflecks-gv.jpg");}
+
+.price {
+  float: right;
+}
+
+ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+
+@media (max-width: 500px) { 
+    h1{ font-size: 50px;
+      margin-top: 20px;
+      line-height: 40px;}
+      }
+    h2{ font-size:20px;
+      margin: 20px 0 30px 0;}
+      }
+     div{ 
+    margin: 20px 12px 0 12px;
+    }
+    p{
+      font-size:20px;
+      line-height:24px;
+    }
+    small{font-size: 16px;}
+    }
+    

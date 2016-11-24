@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+  <link href="shopsstyle.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+</head>
+<body>
+  <header>
+     <h1><a href="manc.html">Manchester Hideouts </a></h1>
+    <ul>
+      <li><a href="eat.html">Drinking and Eating</a></li>
+      <li><a href="shops.html">Great Shopping </a></li>
+      <li><a href="visit.html">Best places to Visit </a></li>
+      <li><a href="contact.html">Contact us</a></li>
+      </ul>
+  </header>
+<h2>Great Shopping </h2>
+
+<div class="Trafford">
+  <p>Trafford Center <span class="price">$$</span><br />
+  <small>Considered the biggest Shopping Center in Europe!Keep it for rainy days because, we assure you, one day is not enough to see everything! From big brands to themed restaurants, everywhere is worth a look. The location is quite far from the city centre: an hour journey by bus.  <br><a href="http://intu.co.uk/traffordcentre"> more info</a></br></small></p>
+</div>
+
+<div class="Arndale">
+  <p>Arndale Shopping centre & Market Street <span class="price">$$</span><br />
+  <small>The place to go in town for your week-end shops. Near Piccadilly station and the shops continue all along Market street where you can find H&M, Primark, Paperchase,...<br><a href="https://www.manchesterarndale.com/stores/a-z"> more info</a></br></small></p>
+</div>
+  
+<div class="King">
+  <p>King's street and St-Anne's Passage<span class="price">$$$</span><br />
+  <small> Nice little street where no cars are allowed. The shops are luxurious but worth the walk. St Anne's Passage is a small gallery on the middle of the street with caffe's and shops. Quite hidden, make sure not to miss it !<br><a href="https://www.google.co.uk/maps/place/St+Ann's+Passage,+Manchester+M2/@53.4814347,-2.2481587,17z/data=!3m1!4b1!4m5!3m4!1s0x487bb1c3c49df8ad:0xf2704d954954a135!8m2!3d53.4814347!4d-2.24597"> more info</a></br></small></p>
+</div>
+
+<div class="Afflecks">
+  <p>Afflecks<span class="price">$$</span><br />
+  <small> 73 businesses distributed in the different floors, you can find: alternative clothing, record shops, retro game shops, tatoo parlors, piercings, cafes...Full of vintage wonders it's the place to go<br><a href="http://www.afflecks.com/"> more info</a></br></small></p>
+</div>
+
+<script>
+$("div").on("click", function() {
+  $(this).toggleClass("show-description");
+  });
+</script>
+</body>
+</html>

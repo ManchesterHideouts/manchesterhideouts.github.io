@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+  <link href="visitstyle.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1><a href="manc.html">Manchester Hideouts </a></h1>
+    <ul>
+      <li><a href="eat.html">Drinking and Eating</a></li>
+      <li><a href="shops.html">Great Shopping </a></li>
+      <li><a href="visit.html">Best places to Visit </a></li>
+      <li><a href="contact.html">Contact us</a></li>
+      </ul>
+  </header>
+<h2>Best Places to visit </h2>
+<div class="Breakout">
+  <p>Breakout Manchester <span class="price">$$$</span><br />
+  <small>Take a break from studying and escape (literally) with Breakout Manchester.
+Gather a group of your mates and test your team-work skills against the clock. Find clues and solve puzzles in order to escape
+    before it's too late. Packed with brain-teasing challenges, this experience is guaranteed to be the most hours of fun you'll have in a long time!
+  Will you make it out of the Escape Rooms? <br><a href="https://breakoutmanchester.com/"> more info</a></br></small></p>
+</div>
+
+<div class="Jump">
+  <p>Jump Nation <span class="price">$$</span><br />
+  <small>Jump to your heart's content inside the largest indoor trampoline park in Europe.
+      Located near the Trafford Centre, Jump Nation promises to be a fun-filled day out for all the family.
+    Try the Bubble Jump assault course, score a slam dunk with Dunk Nation or combine trampolines and skateboarding with the Jump Pipe!
+  .<br><a href="https://www.jumpnation.com/?gclid=Cj0KEQiAvNrBBRDe3IOwzLn6_O4BEiQAmbK-DttMuydR8H_dTNJgTdxL4-b1ZpjU4l6DU7h7Ne3W-4YaAihk8P8HAQ"> more info</a></br></small></p>
+</div>
+  
+<div class="Home2">
+  <p>HOME<span class="price">$$</span><br />
+  <small>Tired of the rainy weather in Manchester? Why not brighten up your day with a trip to this chick cinema?
+      Located on the oh-so-cool First Street in the Northern Quarter, HOME offers a plethora a films that you won't find in your average cinema.
+     One of Manchester's hidden gems, this multi-purpose venue also houses a contemporary art gallery and two theatres.
+     With comfy seating, an excellent on-site restaurant and popcorn aplenty, HOME is - quite simply - the best cinema in town!<br><a href="http://homemcr.org/cinema/"> more info</a></br></small></p>
+</div>
+
+<script>
+$("div").on("click", function() {
+  $(this).toggleClass("show-description");
+  });
+</script>
+</body>
+</html>
